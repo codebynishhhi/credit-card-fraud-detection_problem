@@ -1,9 +1,25 @@
-# datasets
-data/raw/*
-data/processed/*
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
 
-# models
-models/*.pkl
+# Jupyter
+.ipynb_checkpoints/
 
-# system
+# Mac
 .DS_Store
+
+# Data files (VERY IMPORTANT)
+data/raw/*.csv
+data/processed/*.csv
+
+# Models
+models/*.pkl
+models/*.joblib
+
+# Logs
+*.log
