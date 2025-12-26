@@ -1,0 +1,9 @@
+# datasets
+data/raw/*
+data/processed/*
+
+# models
+models/*.pkl
+
+# system
+.DS_Store
